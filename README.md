@@ -46,22 +46,25 @@ the six is a misfire and is not emitted.
 
 The skill is one file. Clone the repository straight into your skills directory.
 
+The repository is called `anti-moral-skill`, but the skill installs as `moral`: the directory
+name has to match `name:` in the frontmatter, so the clone target is `.../skills/moral`.
+
 OpenCode:
 
 ```bash
-git clone https://github.com/RacFor4k/moral.git ~/.config/opencode/skills/moral
+git clone https://github.com/RacFor4k/anti-moral-skill.git ~/.config/opencode/skills/moral
 ```
 
 Windows PowerShell:
 
 ```powershell
-git clone https://github.com/RacFor4k/moral.git "$env:USERPROFILE\.config\opencode\skills\moral"
+git clone https://github.com/RacFor4k/anti-moral-skill.git "$env:USERPROFILE\.config\opencode\skills\moral"
 ```
 
 Claude Code:
 
 ```bash
-git clone https://github.com/RacFor4k/moral.git ~/.claude/skills/moral
+git clone https://github.com/RacFor4k/anti-moral-skill.git ~/.claude/skills/moral
 ```
 
 ## Required: one line in the global context
